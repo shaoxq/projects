@@ -1,14 +1,11 @@
 # image recognition
-## AlexNet
-[net](https://github.com/shaoxq/projects/tree/master/image-recognition/alexnet.md) [caffe implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/caffe) [tensorflow implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/tensorflow)
+## AlexNet(https://github.com/shaoxq/projects/tree/master/image-recognition/alexnet.md)
+## VGGNet(https://github.com/shaoxq/projects/tree/master/image-recognition/vggnet.md)
+## GooLeNet(INceptionv1~v4)(https://github.com/shaoxq/projects/tree/master/image-recognition/inception.md) 
+## ResNet(https://github.com/shaoxq/projects/tree/master/image-recognition/resnet.md) 
 
-## VGGNet
-[net](https://github.com/shaoxq/projects/tree/master/image-recognition/vggnet.md) [caffe implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/caffe) [tensorflow implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/tensorflow)
+# object detection
 
-## GooLeNet(INceptionv1~v4)
-[net](https://github.com/shaoxq/projects/tree/master/image-recognition/inception.md) [caffe implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/caffe) [tensorflow implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/tensorflow)
+# video recognition
 
-## ResNet
-[res net](https://github.com/shaoxq/projects/tree/master/image-recognition/resnet.md) [caffe implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/caffe) [tensorflow implementation](https://github.com/shaoxq/projects/tree/master/image-recognition/tensorflow)
-
- 
+# face recognition
