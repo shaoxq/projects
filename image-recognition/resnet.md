@@ -1,4 +1,5 @@
 Éî¶ÈÑ§Ï°ÍøÂçµÄÉî¶È¶Ô×îºóµÄ·ÖÀàºÍÊ¶±ğµÄĞ§¹ûÓĞ×ÅºÜ´óµÄÓ°Ïì,³£¹æµÄÍøÂçµÄ¶Ñµş£¨plain network£©ÔÚÍøÂçºÜÉîµÄÊ±ºò£¬Ğ§¹ûÈ´Ô½À´Ô½²îÁË¡£ResNetÒıÈëÁË²Ğ²îÍøÂç½á¹¹£¨residual network£©£¬Í¨¹ı²Ğ²îÍøÂç£¬¿ÉÒÔ°ÑÍøÂç²ãÅªµÄºÜÉî£¬¾İËµÏÖÔÚ´ïµ½ÁË1000¶à²ã£¬×îÖÕµÄÍøÂç·ÖÀàµÄĞ§¹ûÒ²ÊÇ·Ç³£ºÃ£¬²Ğ²îÍøÂçµÄ»ù±¾½á¹¹ÈçÏÂÍ¼ËùÊ¾ 
+
 ![resnet-1](https://github.com/shaoxq/projects/blob/master/figs/resnet-1.png?raw=true)
 
 ResNet µÄÍøÂç½á¹¹½è¼øÁË HighWay£¬Ìí¼ÓÒ»Ìõ´Ó inputµ½outputµÄÂ·¾¶£¬¼´ÔÚÊä³ö¸öÊäÈëÖ®¼äÒıÈëÒ»¸öshortcut connection,¶ø²»ÊÇ¼òµ¥µÄ¶ÑµşÍøÂç£¬ÕâÑù¿ÉÒÔ½â¾öÍøÂçÓÉÓÚºÜÉî³öÏÖÌİ¶ÈÏûÊ§µÄÎÊÌâ£¬´Ó¶ø¿É¿ÉÒÔ°ÑÍøÂç×öµÄºÜÉî£¬ResNetÆäÖĞÒ»¸öÍøÂç½á¹¹ÈçÏÂÍ¼ËùÊ¾
@@ -7,6 +8,6 @@ ResNet µÄÍøÂç½á¹¹½è¼øÁË HighWay£¬Ìí¼ÓÒ»Ìõ´Ó inputµ½outputµÄÂ·¾¶£¬¼´ÔÚÊä³ö¸öÊäÈëÖ
 ¶à¸ö Blockµ¥Ôª ×é³ÉµÄÒ»´ó´®
 
 ![resnet-3](https://github.com/shaoxq/projects/blob/master/figs/resnet-3.png?raw=true)
- ![resnet-4](https://github.com/shaoxq/projects/blob/master/figs/resnet-4.png?raw=true)
+![resnet-4](https://github.com/shaoxq/projects/blob/master/figs/resnet-4.png?raw=true)
 
 Ä¿Ç°¼¸ÖÖ³£ÓÃµÄResNetÍøÂç°üÀ¨£ºResNet-50/101/152£¬µ±È»²ãÊıÔ½¶à¼ÆËãÁ¿Ô½´ó£¬»ùÓÚResNetµÄ¸Ä½øÎÒÃÇÒ²ÌáÇ°ÁË½âÏÂ£¬°üÀ¨ GoogleµÄ Inception-ResNet-V2£¬ Kaiming µÄ ResNeXtµÈ
