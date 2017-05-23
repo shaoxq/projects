@@ -9,7 +9,7 @@
 
 2. conv2阶段DFD（data flow diagram）：
 
-![conv2](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv2.png)
+![conv2](https://github.com/shaoxq/projects/blob/master/figs/alexnet-conv2.png?raw=true)
 
 3. conv3阶段DFD（data flow diagram）：
 
