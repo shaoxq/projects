@@ -2,10 +2,10 @@
 
 1. conv1阶段DFD（data flow diagram）：
 
-![conv2](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv1.png)
+![conv1](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv1.png)
 
 
-![image](https://raw.githubusercontent.com/zimoguo/CustomCircle/master/screenshots/circle.jpg)
+![image](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
 
 2. conv2阶段DFD（data flow diagram）：
 
