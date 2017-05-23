@@ -14,20 +14,20 @@
 
 4. conv4阶段DFD（data flow diagram）：
 
-![conv4](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv4.png?raw=true)
+![conv4](https://github.com/shaoxq/projects/blob/master/figs/alexnet-conv4.png?raw=true)
 
 5. conv5阶段DFD（data flow diagram）：
 
-![conv5](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv5.png?raw=true)
+![conv5](https://github.com/shaoxq/projects/blob/master/figs/alexnet-conv5.png?raw=true)
 
 6. fc6阶段DFD（data flow diagram）：
 
-![fc6](https://github.com/shaoxq/projects/tree/master/figs/alexnet-fc6.png?raw=true)
+![fc6](https://github.com/shaoxq/projects/blob/master/figs/alexnet-fc6.png?raw=true)
 
 7. fc7阶段DFD（data flow diagram）：
 
-![fc7](https://github.com/shaoxq/projects/tree/master/figs/alexnet-fc7.png?raw=true)
+![fc7](https://github.com/shaoxq/projects/blob/master/figs/alexnet-fc7.png?raw=true)
 
 8. fc8阶段DFD（data flow diagram）：
 
-![fc8](https://github.com/shaoxq/projects/tree/master/figs/alexnet-fc8.png?raw=true)
+![fc8](https://github.com/shaoxq/projects/blob/master/figs/alexnet-fc8.png?raw=true)
