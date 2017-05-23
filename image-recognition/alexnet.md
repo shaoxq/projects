@@ -5,7 +5,7 @@
 ![conv2](https://github.com/shaoxq/projects/tree/master/figs/alexnet-conv1.png)
 
 
-![image](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/examples.png)
+![image](https://raw.githubusercontent.com/zimoguo/CustomCircle/master/screenshots/circle.jpg)
 
 2. conv2阶段DFD（data flow diagram）：
 
