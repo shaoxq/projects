@@ -2,6 +2,11 @@
 
 ![resnet-1](https://github.com/shaoxq/projects/blob/master/figs/resnet-1.png?raw=true)
 
-通过在输出个输入之间引入一个shortcut connection,而不是简单的堆叠网络，这样可以解决网络由于很深出现梯度消失的问题，从而可可以把网络做的很深，ResNet其中一个网络结构如下图所示 
+ResNet 的网络结构借鉴了 HighWay，添加一条从 input到output的路径，即在输出个输入之间引入一个shortcut connection,而不是简单的堆叠网络，这样可以解决网络由于很深出现梯度消失的问题，从而可可以把网络做的很深，ResNet其中一个网络结构如下图所示 
 
 ![resnet-2](https://github.com/shaoxq/projects/blob/master/figs/resnet-2.png?raw=true)
+
+多个 Block单元 组成的一大串，
+![resnet-3](https://github.com/shaoxq/projects/blob/master/figs/resnet-3.png?raw=true) ![resnet-4](https://github.com/shaoxq/projects/blob/master/figs/resnet-4.png?raw=true)
+
+目前几种常用的ResNet网络包括：ResNet-50/101/152，当然层数越多计算量越大，基于ResNet的改进我们也提前了解下，包括 Google的 Inception-ResNet-V2， Kaiming 的 ResNeXt等
