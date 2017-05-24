@@ -43,3 +43,13 @@ def prob_solver(net_prototxt, train_sample_num, test_sample_num, snapshot_prefix
   solver.type = 'SGD'
   
   return str(solver)
+
+if __name__ == '__main__':
+  import os 
+  from alexnet import * 
+  net_string = alexnet('./examples/imagenet/ilsvrc12_train_lmdb', './examples/imagenet/ilsvrc12_val_lmdb','data/ilsvrc12/imagenet_mean.binaryproto', 256, 50, P.Data.LMDB)
+  with open('./test_prototxt', 'w') as f:
+    f.write(net_string)
+  print prob_solver('./test_prototxt', 10000, 500, 'test')
+  os.remove('./test_prototxt')
+  
