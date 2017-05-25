@@ -28,10 +28,10 @@ class alexnet(Network):
              .fc(4096, name='fc7')
              .dropout(self.keep_prob, name='drop7')
              .fc(1000, relu=False, name='fc8')
-             .softmax(name='prob'))
 
     def build_loss():
-        predict = self.get_output('prob')
+        predict = self.get_output('fc8')
         label = self.get_output('label')
+        #函数内部自动计算softmax，然后再计算交叉熵代价函数
         return tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=predict, labels=label))
         

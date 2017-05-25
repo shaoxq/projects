@@ -534,11 +534,11 @@ class resnet101(Network):
         (self.feed('res4b21_relu', 
                    'bn4b22_branch2c')
              .add(name='res4b22')
-             .relu(name='res4b22_relu')
-             .softmax(name='prob'))
+             .relu(name='res4b22_relu'))
 
     def build_loss():
         predict = self.get_output('prob')
         label = self.get_output('label')
+        # it performs a softmax on logits internally for efficiency。
         return tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=predict, labels=label))
         
