@@ -3,11 +3,15 @@ import caffe
 from caffe import layers as L, params as P
 from layers import *
 
-def alexnet(train_data, val_data, mean_file, train_batch_size, test_batch_size, backend, deploy=False):
+def alexnet(train_data=None, val_data=None, mean_file=None, train_batch_size=None, test_batch_size=None, backend=None, deploy=False):
   """
   Generate the caffe's network specification train_val.prototxt file for Alexnet model,
   described in the [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) publication.
   """
+  if deploy == False:
+      if train_data is None or val_data is None or train_batch_size is None or test_batch_size is None or backend:
+        raise Exception("Invalide input!")
+
   n = caffe.NetSpec()
   
   n.data,n.label,n.test_data = input_data_layer('data',
@@ -77,6 +81,6 @@ def alexnet(train_data, val_data, mean_file, train_batch_size, test_batch_size, 
  
 if __name__ == '__main__':  
   print alexnet('./examples/imagenet/ilsvrc12_train_lmdb', './examples/imagenet/ilsvrc12_val_lmdb','data/ilsvrc12/imagenet_mean.binaryproto', 256, 50, P.Data.LMDB)
-  print alexnet('', '','', '', '', '')
+  print alexnet(deploy=True)
   
   
